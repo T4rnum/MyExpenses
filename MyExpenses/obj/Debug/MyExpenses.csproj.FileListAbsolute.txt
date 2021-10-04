@@ -1,0 +1,10 @@
+C:\Users\Влад\source\repos\MyExpenses\bin\Debug\MyExpenses.exe.config
+C:\Users\Влад\source\repos\MyExpenses\bin\Debug\MyExpenses.exe
+C:\Users\Влад\source\repos\MyExpenses\bin\Debug\MyExpenses.pdb
+C:\Users\Влад\source\repos\MyExpenses\obj\Debug\MyExpenses.Form1.resources
+C:\Users\Влад\source\repos\MyExpenses\obj\Debug\MyExpenses.Properties.Resources.resources
+C:\Users\Влад\source\repos\MyExpenses\obj\Debug\MyExpenses.csproj.GenerateResource.cache
+C:\Users\Влад\source\repos\MyExpenses\obj\Debug\MyExpenses.csproj.CoreCompileInputs.cache
+C:\Users\Влад\source\repos\MyExpenses\obj\Debug\MyExpenses.exe
+C:\Users\Влад\source\repos\MyExpenses\obj\Debug\MyExpenses.pdb
+C:\Users\Влад\source\repos\MyExpenses\obj\Debug\MyExpenses.csprojAssemblyReference.cache
