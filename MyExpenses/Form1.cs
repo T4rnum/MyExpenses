@@ -260,9 +260,9 @@ namespace MyExpenses
         {
             string date = Convert.ToString(DateTime.Now);
             string name = nameText.Text;
+            string value = Console.WriteLine();
             decimal sum;
             bool sumCheck = decimal.TryParse(sumText.Text, out sum);
-            bool checking = false;
             dataGridView3.Rows.Add(date, name, $"{sum} ₽");
             balance += sum;
             monthBalance = balance + totalIncome - totalExpenses;
