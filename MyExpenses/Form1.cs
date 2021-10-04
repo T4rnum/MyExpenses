@@ -262,6 +262,7 @@ namespace MyExpenses
             string name = nameText.Text;
             decimal sum;
             bool sumCheck = decimal.TryParse(sumText.Text, out sum);
+            bool checking = false;
             if (!sumCheck)
             {
                 MessageBox.Show(
