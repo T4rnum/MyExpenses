@@ -263,17 +263,6 @@ namespace MyExpenses
             decimal sum;
             bool sumCheck = decimal.TryParse(sumText.Text, out sum);
             bool checking = false;
-            if (!sumCheck)
-            {
-                MessageBox.Show(
-                    "Введены неверные данные, попробуйте ещё раз!",
-                    "Ошибка",
-                    MessageBoxButtons.OK,
-                    MessageBoxIcon.Information,
-                    MessageBoxDefaultButton.Button1,
-                    MessageBoxOptions.DefaultDesktopOnly);
-                return;
-            }
             dataGridView3.Rows.Add(date, name, $"{sum} ₽");
             balance += sum;
             monthBalance = balance + totalIncome - totalExpenses;
