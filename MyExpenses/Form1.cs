@@ -250,8 +250,7 @@ namespace MyExpenses
 
         private void CalculateBtn_Click(object sender, EventArgs e)
         {
-            balance = monthBalance;
-            monthBalance = balance + totalIncome - totalExpenses;
+            monthBalance = balance * DayOfWeek;
             totalBalance.Text = $"Ваш текущий баланс: {balance:f2} ₽";
             MonthBalanceText.Text = $"В следующем месяце ваш баланс составит: {monthBalance:f2} ₽";
         }
